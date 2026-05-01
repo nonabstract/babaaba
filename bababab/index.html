@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>babababababa</title>
+    <style>
+      h1 {
+          font-size: 60px;
+          text-align: center;
+          font-family: "Comic Sans MS", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+          margin: 0;
+          background-color: #ffffff;
+          text-align: center;
+          font-family: "Segoe UI", Arial, sans-serif;
+          font-size: 25px;
+          background-image: url("../images/bababbababaa.jpg"); /* Resminizin adresini buraya yazın */
+          background-repeat: no-repeat;        /* Resim tekrar etmesin */
+          background-position: center center;    /* Resim hem yatay hem dikey merkezlensin */
+          background-size: cover;             /* En önemli özellik: Ekranı tamamen kapla (bozmadan sığdırır) */
+          background-attachment: fixed;        /* Opsiyonel: Sayfa kaysa bile arka plan sabit kalsın (paralaks efekti) */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bababaaaba</h1>
+    <p>haluk <strong>bababbababa</strong> dedi</p>
+    <br>
+    <p>meltem haluk dedi.</p>
+    <br>
+    <a href="https://tr.wikipedia.org/wiki/Haluk_Bilginer" title="haluk hakkında daha fazla bilgi">bababababa</a>
+    <br>
+
+    <audio id="mySound" src="audios/haluk.mp3"></audio>
+    <img 
+    src="images/firefox2.png" alt="Haluk, bababababaabaabbabaa" 
+    onclick="playSound()" style="cursor: pointer; width: 200px;"
+    >
+    <script>
+      function playSound() {
+        const audio = document.getElementById("mySound");
+        audio.play();
+      }
+    </script>
+  </body>
+</html>
